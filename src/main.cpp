@@ -2,6 +2,8 @@
 #include <thread>
 #include <future>
 
+// Anthony Marcic
+
 int main() {
     // -----------------------------------------------
     // 1. SINGLE-THREADED VERSION
@@ -76,6 +78,8 @@ int main() {
 // Summary (Paste your actual output as comment) in the code:
 // -----------------------------------------------
 /*
+
+Anthony Marcic
 
 Single-threaded version:
 10002443 10002892 9998405 9995838 10000319 10000103 : 1.99 seconds
