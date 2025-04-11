@@ -77,11 +77,13 @@ int main() {
 // -----------------------------------------------
 /*
 
+Single-threaded version:
+10002443 10002892 9998405 9995838 10000319 10000103 : 1.99 seconds
 
+Multi-threaded with std::launch::async:
+9998321 9999323 10001184 10002461 10001254 9997457 : 0.274 seconds
 
-
-
-
-
+Multi-threaded with std::launch::deferred:
+10001337 9997174 10006413 9993852 9999605 10001619 : 1.909 seconds
 
 */
